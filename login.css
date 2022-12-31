@@ -1,0 +1,26 @@
+.nav{
+    background-color: black !important;
+    height: 8vh !important;
+   
+}
+a{
+    color: green !important;
+}
+.img1{
+  width: 100%;
+  height: 70vh;
+
+}
+.signup{
+    text-align: center;
+}
+span{
+    color:green;
+}
+button{
+    color:white !important;
+}
+body{
+    background-color: black;
+}
+

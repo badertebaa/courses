@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.2.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="login.css">
+    <title>Document</title>
+
+</head>
+<body>
+    <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link " aria-current="page" href="home.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="courses .html">corses</a>
+        </li>
+        
+       
+      </ul>
+      <div class="hh">
+        <img src="code.jfif" alt="" class="img1">
+        
+      </div>
+    
+
+        <div class="signup">
+         <h1> <span>log in</span></h1> 
+           <br>
+           <br>
+         
+           <div class="container py-4">
+            <div class="row g-0 align-items-center">
+              <div class="col">
+                <div class="card cascading-right" style="
+                    background: aliceblue;
+                   
+                    ">
+                  <div class="card-body p-5 shadow-5 text-center">
+                    <h2 class="fw-bold mb-5">Sign up </h2>
+                    <form  action="" name="myForm" onsubmit="sub()">
+                     
+                      
+                        <div class="form-outline mb-4">
+                          <div class="form-outline">
+                              <label class="form-label" for="Username"> Username</label>
+                              <input type="text" placeholder="Choose a username" id="Username" class="form-control" onkeyup="validateU()" /><br>
+                              <span id="error1" ></span><br>
+                          </div>
+                        </div>
+                      
+        
+                      <!-- Email input -->
+                      <div class="form-outline mb-4">
+                          <label class="form-label" for="emailF">Email address</label>
+                          <input type="email" placeholder="Enter your email" id="emailF" class="form-control" onkeyup="validateE()"/><br>
+                          <span id="error2" ></span><br>
+                      </div>
+        
+                      <!-- Password input -->
+                      <div class="form-outline mb-4">
+                          <label class="form-label" for="password">Password</label>
+                          <input type="password" placeholder="Enter a strong password" id="password" class="form-control" onkeyup="validateP()" /><br>
+                          <span id="error3" ></span><br>
+                       
+                      </div>
+                      <!-- Password input -->
+                      <div class="form-outline mb-4">
+                          <label class="form-label" for="Cpassword">Confirm Password</label>
+                          <input type="password" placeholder="Reenter your password" id="Cpassword" class="form-control" onkeyup="validateCP()"/><br>
+                          <span id="error4" ></span><br>
+                      </div>
+          
+                      <!-- Submit button -->
+                      
+                      <button type="submit" class="btn btn-warning
+                      col-12 mb-4">
+                      Sign up
+                      </button>
+                  
+                     
+                    </form>
+                  </div>
+                </div>
+              </div>
+        
+             
+            </div>
+          </div>
+
+
+    
+
+
+
+
+<script src="login.js"></script>
+</body>
+</html>
